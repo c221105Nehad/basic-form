@@ -74,6 +74,8 @@ main>.form-login {
     }
 }
 
+/* For sign up page */
+
 main>.form-signup {
     color: white;
     box-shadow: 3px 3px 7px white;
@@ -106,7 +108,7 @@ main>.form-signup {
     }
 
     .form input {
-        width: 176%;
+        width: 169%;
         padding: 20px;
         border: 1px solid rgba(255, 255, 255, 0.507);
         border-radius: 5px;
