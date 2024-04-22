@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* For log in page */
+
+main>.form-login {
+    color: white;
+    box-shadow: 3px 3px 7px white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15vh auto 0px;
+    height: 70vh;
+    width: 30vw;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.form-login-header {
+    font-family: "Space Mono", monospace;
+    font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+}
+
+.form input {
+    width: 176%;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    background-color: tomato;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgba(255, 99, 71, 0.671);
+}
+
+.form p {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+}
+
+.form a {
+    text-decoration: none;
+    color: tomato;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
