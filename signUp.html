@@ -8,13 +8,32 @@
     <title>Basic Form(Sign Up Page)</title>
 </head>
 
-<body>
-    <main>
-        <section class="sign-up">
-            <h1>Sign Up</h1>
-        </section>
-    </main>
-</body>
+<main>
+    <section class="form-signup">
+        <h1 class="form-signup-header">Sign Up</h1>
+        <form action="#" class="form">
+            <label for="email-signup">
+                <input type="email" name="log-in" id="email-signup" placeholder="Enter Your Email" required>
+            </label>
+
+            <label for="pass-signup">
+                <input type="password" name="log-in" id="pass-signup" placeholder="Create Password" required>
+            </label>
+
+            <label for="pass-signup">
+                <input type="password" name="log-in" id="pass-signup" placeholder="Confirm Password" required>
+            </label>
+
+
+            <input type="submit" value="Sign Up">
+
+            <p class="form-question-text">Already have an account?
+                <a href="logIn.html" class="form-question">Log In</a>
+            </p>
+        </form>
+    </section>
+</main>
+<script src="script.js"></script>
 
 </body>
 
